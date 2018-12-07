@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+footer {
+  margin-top: 70px;
+  float: left;
+  border: 2px solid white;
+  width: 100%; }
+  footer .nav {
+    margin: auto;
+    float: left;
+    width: 100%; }
+    footer .nav ul, footer .nav li {
+      font-size: 18px;
+      text-align: center;
+      display: block;
+      margin: auto;
+      color: #E50914;
+      width: 100%; }
+
+header {
+  float: left;
+  width: 100%;
+  margin: 20px 0px 70px 0px; }
+  header .titre {
+    text-align: center;
+    color: #E50914;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    padding: 30px;
+    width: 100%; }
+  header .nav {
+    display: block;
+    margin: auto;
+    float: left;
+    width: 100%; }
+    header .nav ul {
+      display: flex;
+      margin: auto;
+      float: left;
+      width: 100%; }
+      header .nav ul li, header .nav ul a {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        color: #E50914;
+        letter-spacing: 3px;
+        list-style: none; }
+
+.film {
+  margin: auto; }
+  .film .titre {
+    margin-bottom: 70px; }
+    .film .titre img {
+      width: 100%;
+      margin: auto; }
+
+body {
+  background-color: black; }
+  body .film {
+    display: block;
+    float: left;
+    margin: auto;
+    padding: 20px; }
+    body .film h3 {
+      text-align: center;
+      color: #E50914;
+      letter-spacing: 3px; }
+      body .film h3 .film_img, body .film h3 .serie_img {
+        margin: auto;
+        display: block;
+        float: left; }
+        body .film h3 .film_img .description, body .film h3 .serie_img .description {
+          margin-top: 20px;
+          display: block;
+          float: left;
+          text-align: justify;
+          color: white; }
+
+/*# sourceMappingURL=app.css.map */
